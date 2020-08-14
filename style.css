@@ -160,6 +160,20 @@ button{
   font-size:2vw;
 }
 
+#counter{
+  right:0;
+  top:0;
+  width:10%; 
+  margin:2vw 1vw; 
+  position: absolute;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  font-size: 1vw;
+}
+img{
+  height: 1.5vw;
+}
 @media (max-width:720px)
 {
   #title{
@@ -288,7 +302,20 @@ button{
 #number-label{
   font-size:3vw;
 }
-  
+#counter{
+  right:0;
+  top:0;
+  width:10%; 
+  margin:1vw 1vw; 
+  position: absolute;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  font-size: 2vw;
+}
+img{
+  height: 2.5vw;
+}
 }
 @media (max-width:480px)
 {
