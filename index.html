@@ -1,0 +1,160 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you h ave read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<h1 id="title">COVID19 Survey Form</h1>
+<p id="description">Thanks for contributing towards society by filling this form</p>
+<form id="survey-form">
+  <br>
+  <label id="email-label" >
+   Mail-ID<input type="email" id="email" placeholder="Enter your mail-ID here"  required>
+    </label>
+  <br>
+  <label id="name-label" >
+  Name<br><input type="text" id="name" placeholder="Enter your Name here" required>
+ </label>
+    <br>
+  <label id="number-label" >
+Age
+<input type="number" min="16" max="85" placeholder="Enter your age here" id="number" required>
+  </label>
+<br>
+Gender<br>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Male</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Female</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Prefer not to say</label
+      ><br>
+  Region
+<select id="dropdown" required>
+<option disabled selected value>Select Region</option>
+        <option value="asia">Asia</option>
+        <option value="africa">Africa</option>
+        <option value="other">Other</option>
+          <option value="preferNo">Prefer not to say</option>
+</select>
+<br>
+  Check the symptoms that you have experienced in the PAST 6 WEEKS<br>
+      <label>
+        <input
+          name="symptomps"
+          value="Fever/Chills"
+          type="checkbox"
+        />Fever/Chills</label
+      >
+      <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Headaches/Migraines</label
+      >
+
+      <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Dizziness</label
+      >
+        <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Shortness of breath
+</label
+      >
+        <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Chest pain, pressure or tightness
+</label
+      >
+        <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Feelings of Guilt
+</label
+      >
+        <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Feelings of Guilt
+</label
+      >
+        <label>
+        <input
+          name="symptoms"
+          value="headache"
+          type="checkbox"
+          class="input-radio"
+        />Thoughts of harming self or others
+</label
+      ><br>
+  Are you currently taking any medication?<br>
+      <label>
+        <input
+          name="medication"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />Yes</label
+      >
+      <label>
+        <input
+          name="medication"
+          value="No"
+          type="radio"
+          class="input-radio"
+        />No</label
+      ><br>
+  If so, please list:
+  <textarea placeholder="Enter the details here" id="number"></textarea><br>
+  <button type="submit" id="submit" value="Submit">Submit
+    </button>
+</form>
