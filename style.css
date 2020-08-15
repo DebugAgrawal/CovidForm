@@ -171,8 +171,33 @@ button{
   align-items: center; 
   font-size: 1vw;
 }
-img{
+#counterimg{
   height: 1.5vw;
+}
+
+#apollo{
+  width:100%;  
+  margin-top: 3vw;
+  position: relative;
+  display: flex; 
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items:center ;  
+  justify-content: center;
+  font-size: 1.5vw;
+  background-color: rgba(250, 108, 129, 0.753);
+  bottom:0;
+  padding:0px 0px;
+}
+#apolloimg{
+  height:25%;
+  width: 25%;
+  position: relative;
+  display: flex; 
+  flex-direction: column; 
+  align-items:center ;  
+margin-bottom: -0.5vw;
+  bottom:0; 
 }
 @media (max-width:720px)
 {
@@ -313,6 +338,7 @@ button{
   align-items: center; 
   font-size: 2vw;
 }
+
 img{
   height: 2.5vw;
 }
