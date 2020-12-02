@@ -489,13 +489,13 @@ button{
   color:black;
 }
 #apolloimg{
-  height:25%;
-  width: 25%;
+  height:40%;
+  width: 40%;
   position: relative;
   display: flex; 
   flex-direction: column; 
   align-items:center ;  
-margin-bottom: -0.5vw;
+  margin-bottom: -0.5vw;
   bottom:0; 
 }
 }
